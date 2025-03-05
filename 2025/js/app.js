@@ -1,4 +1,3 @@
-
 (function() {
 
 	'use strict';
@@ -109,7 +108,7 @@
 
 	/* Handle timezone conversions */
     function daysToHack() {
-	    var launchDate = new Date('Oct 27 2017');
+	    var launchDate = new Date('April 4 2025');
         var localDate = new Date();
 		var utc = localDate.getTime() + (localDate.getTimezoneOffset() * 60000);
 		var edtNow = new Date(utc + (3600000*(-4)));
